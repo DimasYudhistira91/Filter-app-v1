@@ -13,6 +13,5 @@ console.log(allListJson);
 for(i = 0; i < allListJson.length; i++) {
 rowDOM.length = allListJson.length;
 rowDOM.innerHTML += '<th id="judul-film" scope="row">' + allListJson[i].judul + '</th><td id="tahun-film">' + allListJson[i].tahun + '</td><td id="genre-film">' + allListJson[i].genre + '</td><td id="review-film">' + allListJson[i].review + '</td>';
-
 }
 
