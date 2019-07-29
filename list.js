@@ -1,4 +1,4 @@
-var rowDOM = document.getElementById('row1');
+var rowDOM = document.getElementById('tbody');
 
 var judulDOM = document.getElementById('judul-film');
 var tahunDOM = document.getElementById('tahun-film');
