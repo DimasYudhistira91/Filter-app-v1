@@ -1,13 +1,13 @@
-var rowDOM = document.getElementById('tbody');
+let rowDOM = document.getElementById('tbody');
 
-var judulDOM = document.getElementById('judul-film');
-var tahunDOM = document.getElementById('tahun-film');
-var genreDOM = document.getElementById('genre-film');
-var reviewDOM = document.getElementById('review-film');
+let judulDOM = document.getElementById('judul-film');
+let tahunDOM = document.getElementById('tahun-film');
+let genreDOM = document.getElementById('genre-film');
+let reviewDOM = document.getElementById('review-film');
 
-var allList = localStorage.getItem('daftar-film');
+let allList = localStorage.getItem('daftar-film');
 
-var allListJson = JSON.parse(allList);
+let allListJson = JSON.parse(allList);
 
 console.log(allListJson);
 
